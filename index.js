@@ -14,10 +14,10 @@ function takeANumber(katzDeliLine, people){
 }
 
 function takeANumber(katzDeliLine, number){
-  katzDeliLine.push(number); 
-  number = number + 1;
+  number = 0
+  katzDeliLine.push(number);
   var response = "Welcome, " + number + ".";
- 
+  number = number + 1;
   return response;
 }
 
