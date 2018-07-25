@@ -6,7 +6,7 @@ var katzDeliLine = [
   "GhoulishDaniel"
   ];
 
-function takeANumber(katzDeliLine, person){
+function takeANumber(katzDeliLine, number){
   var nextPlease = katzDeliLine.length + 1;
   var response = "Welcome, " + person + ". You are number " + nextPlease + " in line.";
  katzDeliLine.push(person);
