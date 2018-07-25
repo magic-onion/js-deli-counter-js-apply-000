@@ -1,4 +1,10 @@
-
+var katzDeliLine = [
+  "Genji",
+  "KT",
+  "Jaina",
+  "Jimmy",
+  "GhoulishDaniel"
+  ];
 
 function takeANumber(katzDeliLine, person){
   var nextPlease = katzDeliLine.length + 1;
