@@ -6,13 +6,19 @@ var katzDeliLine = [
   "GhoulishDaniel"
   ];
 
-function takeANumber(katzDeliLine, number){
+function takeANumber(katzDeliLine, people){
   var nextPlease = katzDeliLine.length + 1;
   var response = "Welcome, " + person + ". You are number " + nextPlease + " in line.";
  katzDeliLine.push(person);
   return response;
 }
 
+function takeANumber(katzDeliLine, number){
+    var nextPlease = katzDeliLine.length + 1;
+  var response = "Welcome, " + number + ". You are number " + nextPlease + " in line.";
+ katzDeliLine.push(number);
+  return response;
+}
 
 
 function nowServing(katz) {
