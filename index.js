@@ -14,9 +14,8 @@ function takeANumber(katzDeliLine, people){
 }
 
 function takeANumber(katzDeliLine, number){
+  katzDeliLine.push(number); 
   number = number + 1;
-  katzDeliLine.push(number);  
-  //  var nextPlease = katzDeliLine.length + 1;//
   var response = "Welcome, " + number + ".";
  
   return response;
