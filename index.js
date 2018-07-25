@@ -14,10 +14,11 @@ function takeANumber(katzDeliLine, people){
 }
 
 function takeANumber(katzDeliLine, number){
-    
-    var nextPlease = katzDeliLine.length + 1;
+  number = number + 1;
+  katzDeliLine.push(number);  
+  //  var nextPlease = katzDeliLine.length + 1;//
   var response = "Welcome, " + number + ".";
- katzDeliLine.push(number);
+ 
   return response;
 }
 
