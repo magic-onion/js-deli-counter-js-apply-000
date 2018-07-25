@@ -13,6 +13,8 @@ function takeANumber(katzDeliLine, number){
   return response;
 }
 
+
+
 function nowServing(katz) {
   if(katz.length === 0) {
     var noserve = "There is nobody waiting to be served!";
